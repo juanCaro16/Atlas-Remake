@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 80vh;
+    background-image: url(../assets/images/encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.nav-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 60px;
+    gap: 70%;
+}
+
+.ancla-nav{
+    color: #BCBAC3;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+.logo-nav{
+    width: 100px;
+    height: 100px;
+}
+
+.title-header{
+    color: #fff;
+    font-size: 80px;
+    white-space: pre-wrap;
+    padding-top: 40px;
+    margin-left: 8%;     
+}
+
+.paragraph-header{
+    
+}
+
+
