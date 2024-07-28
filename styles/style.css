@@ -11,7 +11,9 @@ header{
     height: 80vh;
     background-image: url(../assets/images/encabezado.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
+    animation: slideIn 2.5s ease-out forwards;
+    transform: translateX(-100%);
 
 }
 
@@ -21,6 +23,9 @@ header{
     flex-direction: row;
     padding-top: 60px;
     gap: 70%;
+    animation: fadeInUp 4.5s ease-in-out both;
+    opacity: 0;
+    transform: translateY(50px);
 }
 
 .ancla-nav{
@@ -46,7 +51,7 @@ a:hover {
     white-space: pre-wrap;
     padding-top: 40px;
     margin-left: 8%;    
-    animation: slideIn 1s ease-in-out forwards;
+    animation: slideIn 3s ease-in-out forwards;
     transform: translateX(-100%);
 }
 
@@ -65,7 +70,7 @@ a:hover {
     margin-bottom: 3px;
     line-height: 29px;
     font-size: 21.3px;
-    animation: slideIn 2s ease-in-out forwards;
+    animation: slideIn 4s ease-in-out forwards;
     transform: translateX(-100%);
 }
 
@@ -74,7 +79,7 @@ a:hover {
     color: #fff;
     margin-left: 9%; 
     font-size: 21.3px;
-    animation: slideIn 2s ease-in-out forwards;
+    animation: slideIn 4s ease-in-out forwards;
     transform: translateX(-100%);
 }
 
@@ -85,7 +90,7 @@ a:hover {
     height: 50px;
     font-size: 16px;
     font-weight: bold;
-    border-width: 1px;
+    border: none;
     border-radius: 50px;
     margin-top: 50px;
     margin-left: 9%;
@@ -95,7 +100,7 @@ a:hover {
     height 2s,
     background-color 1s,
     rotate 2s;
-    animation: slideIn 2.2s ease-in-out forwards;
+    animation: slideIn 4.2s ease-in-out forwards;
     transform: translateX(-200%);
 }
 
@@ -107,7 +112,8 @@ a:hover {
 
 
 .btn-header:hover {
-    background-color: #00ffff9a;
+    color: #fff;
+    background-color: #0062ff30;
     width: 200px;
     height: 70px;
     rotate: 360deg;
@@ -116,7 +122,7 @@ a:hover {
 
 .firstSection{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
 }
 
 .title-FirstSection{
@@ -125,7 +131,7 @@ a:hover {
     margin-top: 100px;
     font-size: 50px;
     font-weight: bolder;
-    animation: fadeInUp 1s ease-in-out both;
+    animation: fadeInUp 4s ease-in-out both;
     opacity: 0;
     transform: translateY(50px);
 }
@@ -179,6 +185,9 @@ a:hover {
 .li-body{
     color: #00000093;
     font-size: 30px;
+    animation: fadeInUp 2s ease-in-out both;
+    opacity: 0;
+    transform: translateY(50px);
 }
 
 
@@ -186,7 +195,9 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 50px;
-    
+    animation: fadeInUp 2s ease-in-out both;
+    opacity: 0;
+    transform: translateY(50px);    
 }
 
 .P-textsBody{
@@ -203,7 +214,118 @@ a:hover {
 
 .secondSection{
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(168deg, #ffffff 40%, #00FFAD 0);
+    height: 110vh;
+    background: linear-gradient(168deg, #ffffff 30%, #00FFAD 0);
 }
 
+.title1SecondSection{
+    font-size: 60px;
+    font-weight: bolder;
+    position: relative;
+    top: 1rem;
+    margin-left: 10rem;
+    animation: slideIn 3.5s ease-out forwards;
+    transform: translateX(100%);
+}
+
+.textSecondSection{
+    font-size: 20px;
+    width: 30rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    animation: slideIn 3.5s ease-out forwards;
+    transform: translateX(100%);
+}
+
+.text2SecondSection{
+    font-size: 20px;
+    width: 40rem;
+    margin-left: 10rem;
+    animation: slideIn 4s ease-out forwards;
+    transform: translateX(100%);
+}
+
+.btn-SecondSection{
+    background-color: #192440;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;    
+    margin-left: 10rem;
+    margin-top: 4rem;
+    position: absolute;
+    animation: slideIn 5s ease-out forwards;
+    transform: translateX(400%);
+}   
+
+.img-laptop{
+    position: relative;
+    left: 60rem;
+    bottom: 11rem;
+    animation: fadeInUp 2s ease-in-out both;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+
+.secondPart{
+    width: 100%;
+
+}
+
+.title2SecondSection{
+    font-size: 60px;
+    width: 30rem;
+    font-weight: bolder;
+    margin-left: 59rem;
+    animation: slideIn 2.5s ease-out forwards;
+    transform: translateX(-100%);
+}
+
+.textSecondPart{
+    font-size: 20px;
+    width: 35rem;
+    margin-top: 2rem;
+    margin-left: 59rem;
+    animation: slideIn 3.5s ease-out forwards;
+    transform: translateX(-100%);
+}
+
+.text2SecondPart{
+    font-size: 20px;
+    margin-left: 59rem;
+    width: 24rem;
+    animation: slideIn 4s ease-out forwards;
+    transform: translateX(-100%);
+}
+
+.btn-SecondSection2{
+    background-color: #192440;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;    
+    margin-left: 10rem;
+    margin-top: 3rem;
+    position: absolute;
+    left: 46%;
+    animation: slideIn 4s ease-out forwards;
+    transform: translateX(-600%);
+}
+
+.img-tablet{
+    position: absolute;
+    top: 220%;
+    left: 12%;
+    animation: fadeInUp 2s ease-in-out both;
+    opacity: 0;
+    transform: translateY(50px);
+}
