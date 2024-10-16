@@ -361,8 +361,8 @@ a:hover {
 .card1{
     width: 20%;
     height: 30rem;
-    animation: slideIn 4s ease-out forwards;
-    transform: translateX(-600%);
+    animation: slideIn s ease-out forwards;
+    transform: translateX(90%);
 }   
 
 .titlecard1{
@@ -440,7 +440,7 @@ a:hover {
     height: 30rem;
     animation: slideIn 4s ease-out forwards;
     
-    transform: translateX(600%);
+    transform: translateX(-90%);
 }
 
 .btn-ThirdSectionProfessional{
